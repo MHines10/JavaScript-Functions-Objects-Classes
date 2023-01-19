@@ -60,7 +60,8 @@ class User {
       this.password = newPassword;
       console.log(`${this.username}, your new password has been set!`);
       return true;
-    } else {
+    } 
+    else {
       // if old password does not match, returns False
       console.log(`${this.username}, your old password is incorrect!`);
       return false;
